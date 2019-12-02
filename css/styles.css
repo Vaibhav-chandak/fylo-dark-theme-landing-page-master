@@ -1,0 +1,387 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #1c2431;
+  font-size: 14px;
+  color: white;
+}
+
+.container {
+  margin-top: 5%;
+}
+
+.logo-header {
+  width: 30%;
+}
+
+.nav-link {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.sign-in {
+  width: auto;
+}
+
+.container-1 {
+  text-align: center;
+  margin: 5% auto;
+  background-image: url("../images/bg-curvy-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.img {
+  width: 80%;
+  margin: 15% auto;
+}
+
+.heading {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.para {
+  margin: 5%;
+}
+
+.btn {
+  background-color: #339ecc;
+  color: white;
+  width: 70%;
+  border-radius: 2rem;
+  font-size: 0.8rem;
+  padding: 4%;
+}
+
+.row {
+  margin: 0;
+}
+
+.row-1 {
+  text-align: center;
+}
+
+.icon {
+  margin: 30% auto 10%;
+  width: 20%;
+}
+
+.para-features {
+  width: 92%;
+  margin: auto;
+}
+
+.container-2 {
+  margin-top: 25%;
+}
+
+.img-div {
+  text-align: center;
+}
+
+.see {
+  color: #62e0d9;
+  border-bottom: 1px solid;
+}
+
+.review {
+  margin-top: 30%;
+}
+
+.review-box {
+  margin: 10%;
+  padding: 5%;
+  font-size: 0.7rem;
+  background-color: #202a3c;
+  border-radius: 1rem;
+}
+
+.reviewer {
+  margin-top: 10%;
+}
+
+.name {
+  font-size: 0.8rem;
+  margin-bottom: 1%;
+  font-weight: 700;
+}
+
+.profile-pic {
+  width: 13%;
+  margin-right: 3%;
+  border-radius: 100%;
+  float: left;
+}
+
+.quotes-img {
+  width: 5%;
+  position: relative;
+  top: 2.3rem;
+  left: 2.3rem;
+}
+
+.container-3 {
+  width: 90%;
+  text-align: center;
+  background-color: #202a3c;
+  position: relative;
+  top: 10rem;
+  border-radius: 1rem;
+}
+
+.get {
+  padding-top: 15%;
+}
+
+.mail {
+  padding: 3% 15%;
+  border-radius: 2rem;
+  margin-bottom: 5%;
+}
+
+.btn-footer {
+  width: 16rem;
+  margin-bottom: 10%;
+}
+
+.row-2 {
+  background-color: #0b1523;
+  text-align: left;
+}
+
+.footer-icon {
+  float: left;
+  margin-right: 5%;
+}
+
+.icon-address {
+  margin-top: 7%;
+}
+
+.logo-footer {
+  margin-top: 15rem;
+}
+
+.address {
+  padding-left: 7%;
+}
+
+.about {
+  color: white;
+  display: block;
+  margin: 5% auto;
+}
+
+.contact {
+  color: white;
+  display: block;
+  margin: 5% auto;
+}
+
+.about-div {
+  margin-top: 10%;
+}
+
+.contact-div {
+  margin-top: 7%;
+}
+
+.social {
+  margin: 2%;
+  padding: 2%;
+  border: 1px solid;
+  border-radius: 100%;
+  color: #fff;
+}
+
+.social:hover {
+  background-color: white;
+  color: black;
+}
+
+.social-main {
+  text-align: center;
+}
+
+.attribution {
+  background-color: #0b1523;
+  font-size: 11px;
+  text-align: center;
+  padding: 5%;
+}
+
+.attribution a:hover {
+  color: #fff;
+}
+
+.icon-phone {
+  margin-top: 5%;
+}
+
+/* Media Queries */
+@media (min-width: 900px) {
+  .logo-header {
+    width: auto;
+  }
+
+  .nav-link {
+    margin-right: 3rem;
+  }
+
+  .sign-in {
+    width: auto;
+  }
+
+  .img {
+    width: auto;
+    margin-top: 0;
+    margin-bottom: 5%;
+  }
+
+  .container-fluid {
+    width: 50%;
+  }
+
+  .heading {
+    margin: auto;
+    line-height: 1.5;
+    font-size: 2.3rem;
+  }
+
+  .para {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+    width: 40%;
+    padding: 2%;
+  }
+
+  .row-1 {
+    width: 70%;
+    margin: auto;
+  }
+
+  .icon {
+    width: auto;
+  }
+
+  .col-lg-6 .heading {
+    font-size: 1.3rem;
+  }
+
+  .icon-access {
+    margin-bottom: 3.4rem;
+  }
+
+  .para-features {
+    width: 80%;
+  }
+
+  .container-2 {
+    margin-top: 5%;
+  }
+
+  .img-productive {
+    float: left;
+  }
+
+  .container-2 .heading {
+    width: 80%;
+    line-height: normal;
+    margin-bottom: 2%;
+    padding-top: 10%;
+  }
+
+  .review {
+    margin-top: 15%;
+    padding: 5%;
+    position: relative;
+  }
+
+  .quotes-img {
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 5rem;
+  }
+
+  .review-box {
+    padding: 2%;
+    max-width: 30%;
+    margin: auto;
+    font-size: 0.85rem;
+  }
+
+  .container-3 {
+    width: 80%;
+  }
+
+  .get {
+    padding-top: 5%;
+    font-size: 2rem;
+  }
+
+  .container-3 .para {
+    width: 75%;
+    margin: 2% auto;
+    font-size: 1rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  .mail {
+    padding: 1%;
+    width: 60%;
+  }
+
+  .btn-footer {
+    width: 20%;
+    padding: 1%;
+    margin: auto;
+    margin-left: 3%;
+  }
+
+  .row-2 {
+    width: auto;
+    padding: 10%;
+    padding-top: 23%;
+    padding-bottom: 0;
+    position: relative;
+    z-index: -1;
+  }
+
+  .logo-footer {
+    position: absolute;
+    top: 0;
+  }
+
+  .row-2 .para {
+    font-size: 0.8rem;
+  }
+
+  .col-last {
+    margin: 0;
+  }
+
+  .icon-phone {
+    margin-top: 5%;
+  }
+
+  .phone {
+    margin-bottom: 5%;
+  }
+
+  .social-main {
+    padding: 0;
+  }
+
+  .social {
+    padding: 5%;
+  }
+
+  .attribution {
+    padding: 3%;
+  }
+}
