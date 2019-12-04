@@ -24,10 +24,8 @@ body {
 
 .container-1 {
   text-align: center;
-  margin: 5% auto;
-  background-image: url("../images/bg-curvy-mobile.svg");
-  background-repeat: no-repeat;
-  background-position: center;
+  margin-top: 5%;
+  padding-bottom: 5%;
 }
 
 .img {
@@ -208,6 +206,7 @@ body {
   font-size: 11px;
   text-align: center;
   padding: 5%;
+  margin-bottom: 0;
 }
 
 .attribution a:hover {
@@ -216,6 +215,17 @@ body {
 
 .icon-phone {
   margin-top: 5%;
+}
+
+.bg-1 {
+  background-image: url("../images/bg-curvy-mobile.svg");
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg-2 {
+  background-color: #181f2a;
 }
 
 /* Media Queries */
@@ -383,5 +393,12 @@ body {
 
   .attribution {
     padding: 3%;
+  }
+
+  .bg-1 {
+    background-image: url("../images/bg-curvy-desktop.svg");
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
   }
 }
